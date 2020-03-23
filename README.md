@@ -1,7 +1,7 @@
 # De-Novo-Caspase-6-inhibitors-design-by-GRU-Based-RNN-Combined-with-Transfer-Learning-Approach
 ## Introduction:
 
-Due to the potencies in the treatments of neurodegenerative diseases, caspase-6 inhibitors have attracted widespread attentions. Herein, gated recurrent unit (GRU)-based recurrent neural network (RNN) combined with transfer learning was used to build the molecular generative model of caspase-6 inhibitors. 
+Due to the potencies in the treatments of neurodegenerative diseases, caspase-6 inhibitors have attracted widespread attentions. In this demo, gated recurrent unit (GRU)-based recurrent neural network (RNN) combined with transfer learning was used to build the molecular generative model of caspase-6 inhibitors. Furthermore, machine learning (ML)-based predictors were also built for molecular activities prediction.
 
 ## Requirements:
 In order to get started you will need:
