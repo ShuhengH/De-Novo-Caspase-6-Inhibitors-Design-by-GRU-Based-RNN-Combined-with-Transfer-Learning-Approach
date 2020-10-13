@@ -16,7 +16,8 @@ In order to get started you will need:
 * pickle  
 * RDKit  
 * tqdm  
-* Mordred  
+* Mordred 
+* keras -- for DFFN-based classifier construction
 
 ## Installation with Anaconda
 If you installed your Python with Anacoda you can run the following commands to get started:
@@ -33,6 +34,7 @@ If you installed your Python with Anacoda you can run the following commands to 
 We uploaded several demos in a form of iPython notebooks:
 
 * Demo_ML-based_classifier.ipynb -- ML-based classifiers construction  
-* Demo_Transfer_learning.ipynb -- training a GRU-based RNN to generate new molecules   
+* Demo_Transfer_learning.ipynb -- training a GRU-based RNN to generate new molecules 
+* Demo_DFFN-based_classifier -- DFFN-based classifier construction
   
 Disclaimer: In our work, RNN were first trained to generate a chemical language model on the RDKit canonical SMILES dataset containing 2.4 million molecules from the PubChem database (https://pubchem.ncbi.nlm.nih.gov), where the molecules were restrained to containing between 10 and 100 heavy atoms and the max length was 140. Then, a dataset with 433 active caspase-6 inhibitors was used to fine-tune the pre-trained RNN model. Since GITHUB has a single file limit of 100MB, this demo provides a SMILES dataset with 800 thousand molecules for pre-training RNN generator.
