@@ -37,7 +37,7 @@ def fit_model(data, model_clf, test_size, random_state):
     print("Test set: confusion matrix:")
     print(metrics.classification_report(model_expected, model_predicted))
     print(metrics.confusion_matrix(model_expected, model_predicted))
-    print("MCC", matthews_corrcoef(model_expected, model_predicted))
+    print("MCC:", matthews_corrcoef(model_expected, model_predicted))
     print( "AUC:", roc_auc_score(model_expected, model_predicted))
 
 
